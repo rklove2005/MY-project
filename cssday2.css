@@ -1,0 +1,46 @@
+ul{
+    list-style: square;
+}
+/* id selector */
+#list1{
+    background-color: burlywood ;
+}
+/*  */
+.list{
+    background-color: blueviolet;
+    color: rgb(255, 0, 0);
+    list-style: circle;
+}
+/* group selector */
+/* h1,h2,h3,h4,h5,h6{
+    background-color: cadetblue;
+    color: rgb(0, 255, 166); */
+/* } */
+/* combinator */
+/* decendent combinator */
+/* div>p{
+    background-color: aqua;
+} */
+/* next sibling selector
+h1+h2+h3+h4{
+    background-color: aqua;
+}
+input:checked + h6 {
+    background-color: rgb(22, 80, 80);
+    color: blue;
+}
+
+ */
+ .para{
+    /* color: rgb(236, 38, 38);
+    background-color: rgb(26, 255, 0); */
+    /* color:rgba(203, 46, 46, 0.94); */
+    color: hsl(247, 90%, 56%);
+    /* hue= color 0 to 360 */
+    /* saturation 0 to 100% */
+    /* lighytness 0 to 100% */
+    text-align: center;
+    text-transform:lowercase;
+    text-decoration: underline;
+ }
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .layout {
+            display: grid;
+            background-color: aquamarine;
+            grid-template-columns: 90px 1fr 90px ;
+            grid-template-rows: 110px 400px 110px ;
+            grid-template-areas:
+                "r r r"
+                " k m n"
+         
+                "f f f";
+            height: 100%;
+        }
+
+        .header {
+            grid-area: r;
+            background-color: brown;
+        }
+
+        .sidebar {
+            grid-area: 
+            k;
+            background-color: bisque;
+        }
+.lsidebar{
+    grid-area: n;
+    background-color: azure;
+}
+        .main {
+            grid-area: m;
+            background-color: beige;
+        }
+
+        .footer {
+            grid-area: f;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="header">1</div>
+        <div class="sidebar">2</div>
+        <div class="main">3</div>
+        <div class="lsidebar">4</div>
+        <div class="footer">5</div>
+    </div>
+</body>
+
+</html>

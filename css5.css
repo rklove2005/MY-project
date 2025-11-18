@@ -1,0 +1,45 @@
+.box1{
+    height: 400px;
+    background-color: chartreuse;
+}
+.box2{
+    height: 400px;
+    background-image: url(https://imgs.search.brave.com/TXEe-Rcm1Z7GdSGDTA_X6hScmF5P7SsOAkv0lUHYX6c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy83Mjc5ODIz/Ni1oYWNrZXItd2Fs/bHBhcGVyLWZvci1k/ZXNrdG9wLXBjLmpw/Zw);
+background-attachment: fixed;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+ .boxone{
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+        /* long head property */
+        /* padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px; */
+        /* short hand proprty */
+        /* padding: 30px; */
+        /* top / bottom property  left/right*/
+        /* padding: 50px 50px; */
+        /* top /right  property  left/bottom*/
+         padding: 50px 50px 60px 70px; 
+         /* border long hand */
+         /* border-width: 5px;
+         border-style: dashed;
+         border-color: rgb(255, 128, 0); */
+
+         /* border short hand */
+         border: 1px blue outset ;
+         /* border-radius: 200px; */
+         border-top-left-radius: 200px;
+         border-top-right-radius: 20px;
+         border-bottom-left-radius: 60px;
+         border-bottom-right-radius: 200px;
+         /* margin */
+         margin-left: 100px;
+         box-sizing: border-box;
+         margin-right: 100px;
+         
+
+    }

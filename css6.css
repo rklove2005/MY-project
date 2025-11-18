@@ -1,0 +1,14 @@
+.parent{
+    height: 600px;
+    background-color: rgb(49, 190, 190);
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+/* aling between cwnter */
+    align-items: center;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}

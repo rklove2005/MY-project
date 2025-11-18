@@ -1,0 +1,28 @@
+.parent{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(106, 255, 0);
+
+}
+.text{
+    line-height: 5;
+    text-shadow: 5px 5px 10px gold;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .p{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(144, 88, 223);
+}
+.c{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 140, 0);
