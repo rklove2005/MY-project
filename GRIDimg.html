@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-rows: 350px 350px;
+            grid-template-columns: 600px 350px 350px;
+            grid-template-areas: 
+            "img1 img2 img3"
+            "img1 img4 img5";
+            gap: 5px;
+            
+        }
+        .img1{
+            background-image: url(https://imgs.search.brave.com/mZsb5GesBL5WolRy1bErJ0MR4hrLRfBaHfR9_AYkJBU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzJjLzg1/L2YzLzJjODVmM2Nk/NjZmOGQzZDdmY2I5/M2U2ZGE4ZWVlMDhj/LmpwZw);
+grid-area: img1;
+background-size: 100% 100%;
+/* width:500px ; */
+
+border: 1px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+        }
+        .img2{
+    grid-area: img2;
+    background-image: url(https://imgs.search.brave.com/JPyObR9PS5DT9e2Y4qoab9ft8mpQzOZbSVtvpaZl2jE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIx/NjI4OTA3Mi9waG90/by90b3BzaG90LWNo/ZW5uYWktc3VwZXIt/a2luZ3MtY2FwdGFp/bi1tYWhlbmRyYS1z/aW5naC1kaG9uaS1s/b29rcy1vbi1kdXJp/bmctdGhlLWluZGlh/bi1wcmVtaWVyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz03/WWlablFyVExtZE5P/c3dhWTlKYXI2djFO/ODU1ZkVlYmRDVndY/cnVZdFp3PQ);
+background-size: 100% 100% ;
+        }
+.img3{
+    grid-area: img3;
+    background-image: url(https://imgs.search.brave.com/yC4nBvgJGgaAOZ2doN0gvhdIGE3w-FscFh4Pp__ZIc8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNzY5/ODIzNjgvcGhvdG8v/am9oYW5uZXNidXJn/LXNvdXRoLWFmcmlj/YS1pbmRpYW4tY2Fw/dGFpbi1tYWhlbmRy/YS1zaW5naC1kaG9u/aS1jZWxlYnJhdGVz/LXdpdGgtdGhlLXRy/b3BoeS1kdXJpbmcu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVdjNW0zdmF6cjJh/Q1l3WlVLZ29pQzVU/Snd2bV9TVWx0SFhL/LWwwZnNPU1k9);
+    background-size: 100% 100% ;
+    border-top-right-radius: 15px;
+}
+.img4{
+    grid-area: img4;
+    background-image: url(https://imgs.search.brave.com/IG6MBPq5L_pPJsR1EJtSgrPlzojkbceRmS1Lcgg5rdI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDYwNTA2/MzQuanBn);
+background-size: 100% 100% ;
+}
+.img5{
+    grid-area: img5;
+    background-image: url(https://imgs.search.brave.com/PmXZ2LROdaZQArYeWQwZCScWQ21PXjzjcaXc-k6aL1E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci82NDcv/NTYwL0hELXdhbGxw/YXBlci1tLXMtZGhv/bmktdGVhbS1pbmRp/YS1pcGwtaW5kaWFu/LWNyaWNrZXQtdGVh/bS1tcy1kaG9uaS1t/cy1jaGVubmFpLXN1/cGVyLWtpbmdzLWNz/ay1pbmRpYS10aHVt/Ym5haWwuanBn);
+background-size: 100% 100% ; 
+border-bottom-right-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+        <div class="img4"></div>
+        <div class="img5"></div>
+    </div>
+</body>
+</html>
